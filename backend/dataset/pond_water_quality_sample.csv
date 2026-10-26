@@ -1,0 +1,91 @@
+ph,dissolved_oxygen,ammonia,temperature,species,health_category
+7.4,6.8,0.02,28.1,tilapia,Healthy
+7.6,7.1,0.03,27.5,tilapia,Healthy
+7.2,6.4,0.04,28.8,tilapia,Healthy
+7.8,6.9,0.01,26.9,tilapia,Healthy
+7.5,7.4,0.02,27.2,shrimp,Healthy
+8.0,6.6,0.03,28.5,shrimp,Healthy
+7.9,7.2,0.02,29.0,shrimp,Healthy
+7.3,8.5,0.01,14.5,salmon,Healthy
+7.1,9.1,0.01,13.8,salmon,Healthy
+7.4,8.8,0.02,15.1,salmon,Healthy
+7.2,6.2,0.04,29.2,catfish,Healthy
+7.5,6.7,0.03,28.4,catfish,Healthy
+7.7,7.0,0.02,26.5,carp,Healthy
+7.4,6.5,0.03,27.8,carp,Healthy
+7.6,6.9,0.02,28.0,tilapia,Healthy
+7.8,7.3,0.02,27.4,tilapia,Healthy
+7.1,6.3,0.04,28.6,tilapia,Healthy
+8.1,6.8,0.03,28.9,shrimp,Healthy
+7.7,7.5,0.01,27.7,shrimp,Healthy
+7.5,6.6,0.03,28.3,carp,Healthy
+7.3,7.1,0.02,27.1,tilapia,Healthy
+7.9,6.5,0.04,29.1,tilapia,Healthy
+7.4,8.6,0.01,14.2,salmon,Healthy
+7.2,8.9,0.01,13.5,salmon,Healthy
+7.6,6.4,0.03,28.7,catfish,Healthy
+7.5,7.2,0.02,27.6,tilapia,Healthy
+7.7,6.8,0.03,28.2,shrimp,Healthy
+7.3,6.7,0.02,27.9,carp,Healthy
+7.8,7.0,0.02,27.3,tilapia,Healthy
+7.4,6.6,0.03,28.5,tilapia,Healthy
+6.4,4.3,0.18,31.2,tilapia,Moderate Risk
+8.6,4.6,0.15,30.8,tilapia,Moderate Risk
+6.6,4.1,0.22,31.5,tilapia,Moderate Risk
+8.5,4.8,0.14,30.4,shrimp,Moderate Risk
+6.7,4.4,0.19,31.0,shrimp,Moderate Risk
+8.7,4.2,0.21,31.6,shrimp,Moderate Risk
+6.5,5.8,0.09,17.8,salmon,Moderate Risk
+8.3,5.5,0.11,18.2,salmon,Moderate Risk
+6.3,4.0,0.24,31.8,catfish,Moderate Risk
+8.6,4.5,0.17,30.9,catfish,Moderate Risk
+6.5,4.2,0.20,31.4,carp,Moderate Risk
+8.5,4.7,0.16,30.6,carp,Moderate Risk
+6.7,4.5,0.16,30.5,tilapia,Moderate Risk
+8.4,4.3,0.19,31.1,tilapia,Moderate Risk
+6.8,4.1,0.23,24.2,tilapia,Moderate Risk
+8.6,4.9,0.15,24.5,shrimp,Moderate Risk
+6.5,4.4,0.18,23.8,tilapia,Moderate Risk
+8.5,4.2,0.21,31.3,shrimp,Moderate Risk
+6.6,5.6,0.10,17.9,salmon,Moderate Risk
+8.4,5.4,0.12,18.4,salmon,Moderate Risk
+6.4,4.3,0.22,31.7,catfish,Moderate Risk
+8.6,4.6,0.18,30.7,carp,Moderate Risk
+6.7,4.2,0.20,31.2,tilapia,Moderate Risk
+8.5,4.4,0.17,30.9,tilapia,Moderate Risk
+6.6,4.5,0.19,24.1,carp,Moderate Risk
+8.7,4.1,0.23,31.5,shrimp,Moderate Risk
+6.5,4.3,0.21,31.0,tilapia,Moderate Risk
+8.4,4.7,0.16,30.3,tilapia,Moderate Risk
+6.6,4.0,0.24,31.6,catfish,Moderate Risk
+8.5,4.5,0.18,30.8,shrimp,Moderate Risk
+5.6,2.4,0.62,34.1,tilapia,Critical Risk
+9.2,2.1,0.78,34.8,tilapia,Critical Risk
+5.8,2.7,0.54,33.6,tilapia,Critical Risk
+9.1,2.3,0.68,34.2,shrimp,Critical Risk
+5.7,2.0,0.85,35.0,shrimp,Critical Risk
+9.3,2.5,0.59,33.9,shrimp,Critical Risk
+5.9,3.4,0.38,21.5,salmon,Critical Risk
+9.0,3.1,0.44,22.1,salmon,Critical Risk
+5.5,1.9,0.92,35.2,catfish,Critical Risk
+9.4,2.2,0.74,34.5,catfish,Critical Risk
+5.7,2.5,0.65,33.8,carp,Critical Risk
+9.2,2.3,0.71,34.4,carp,Critical Risk
+5.8,2.6,0.58,33.5,tilapia,Critical Risk
+9.1,2.0,0.82,34.9,tilapia,Critical Risk
+5.6,2.2,0.76,20.4,tilapia,Critical Risk
+9.3,2.4,0.64,20.8,shrimp,Critical Risk
+5.7,2.1,0.88,34.7,shrimp,Critical Risk
+9.2,2.6,0.55,33.4,tilapia,Critical Risk
+5.9,3.2,0.42,21.8,salmon,Critical Risk
+9.0,2.9,0.49,22.4,salmon,Critical Risk
+5.6,2.0,0.84,34.6,catfish,Critical Risk
+9.3,2.3,0.69,34.0,carp,Critical Risk
+5.8,2.5,0.61,33.7,tilapia,Critical Risk
+9.1,2.2,0.75,34.3,shrimp,Critical Risk
+5.7,2.4,0.66,33.9,carp,Critical Risk
+9.2,2.1,0.79,34.6,tilapia,Critical Risk
+5.5,1.8,0.95,35.4,shrimp,Critical Risk
+9.4,2.0,0.86,35.1,tilapia,Critical Risk
+5.8,2.3,0.72,34.2,catfish,Critical Risk
+9.1,2.5,0.60,33.6,carp,Critical Risk

@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-sans: 'Public Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+
+    /* Sample-Image Inspired Oceanic Indigo-Teal Palette */
+    --bg-canvas: #222149;
+    --bg-surface: #2B2A5A;
+    --bg-elevated: #35336B;
+    --border-hairline: rgba(124, 231, 251, 0.16);
+    --accent-aqua: #7CE7FB;
+    --accent-teal: #1D7E91;
+    --accent-indigo: #563E96;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #212046;
+    background-image: 
+      radial-gradient(at 0% 0%, rgba(26, 127, 145, 0.28) 0px, transparent 55%),
+      radial-gradient(at 100% 15%, rgba(89, 62, 150, 0.35) 0px, transparent 55%),
+      linear-gradient(160deg, #1E1D42 0%, #282654 48%, #212046 100%);
+    background-attachment: fixed;
+    color: #F8FAFC;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-mono, .tabular-nums {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Signature Oceanic Teal-to-Indigo Banner Gradient from Sample Image 2 & 1 */
+.oceanic-hero-gradient {
+  background: linear-gradient(125deg, #1A7F91 0%, #2D608E 48%, #543D93 100%);
+}
+
+.indigo-agency-surface {
+  background: linear-gradient(145deg, #333168 0%, #282654 100%);
+}
+
+/* Subtle animated water caustics wave line */
+@keyframes subtleFlow {
+  0%, 100% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(-12px);
+  }
+}
+
+.water-wave-anim {
+  animation: subtleFlow 8s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .water-wave-anim {
+    animation: none;
+  }
+}
+
+/* Custom subtle scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #1E1D42;
+}
+::-webkit-scrollbar-thumb {
+  background: #3F3D7B;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7CE7FB;
+}

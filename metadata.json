@@ -1,0 +1,6 @@
+{
+  "name": "PondHealth AI",
+  "description": "Intelligent aquaculture pond-health prediction platform powered by a Random Forest Classifier, multi-species water quality intelligence, IoT telemetry, and AquaSense AI explainability.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
